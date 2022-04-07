@@ -11,6 +11,7 @@
     animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
 }
 #total:hover {
+  background-color: rgb(255, 0, 0);
   -webkit-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
   -moz-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
   -o-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
