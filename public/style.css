@@ -10,6 +10,12 @@
     -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
     animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
 }
+#total:hover {
+  -webkit-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
+  -moz-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
+  -o-animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
+  animation: moveX 0s linear 0s infinite alternate, moveY 0s linear 0s infinite alternate;
+}
 @-webkit-keyframes moveX {
     from { left: -480px; } to { left: 480px; }
   }
